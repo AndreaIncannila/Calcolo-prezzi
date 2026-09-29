@@ -1,0 +1,11 @@
+MP TENDE - versione PWA installabile da Google Chrome
+
+COME INSTALLARLA
+1. Pubblica questa cartella su un sito HTTPS (ad esempio GitHub Pages).
+2. Apri il sito con Google Chrome sul telefono Android.
+3. Tocca "INSTALLA APP" oppure il menu ⋮ di Chrome > "Installa app" / "Aggiungi a schermata Home".
+4. L'app verrà aggiunta alla schermata Home e funzionerà anche offline dopo il primo avvio.
+
+NOTA
+Aprendo index.html direttamente come file locale, Chrome normalmente non consente l'installazione PWA.
+Serve un indirizzo web HTTPS.
