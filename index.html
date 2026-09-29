@@ -3,9 +3,14 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>MP TENDE - Calcolatore Listini 2025</title>
+
 <link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#244b3d">
-<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png">
+
 <style>
 *{box-sizing:border-box} body{margin:0;background:#f4f6f3;font-family:Arial,sans-serif;color:#1e2b26}
 .wrap{max-width:660px;margin:auto;padding:18px} .card{background:#fff;border-radius:18px;padding:22px;box-shadow:0 8px 28px #00000014}
@@ -19,12 +24,10 @@ button{width:100%;margin-top:20px;padding:15px;border:0;border-radius:12px;backg
 .warn{margin-top:12px;padding:12px;background:#fff3cd;border-radius:10px;font-size:14px;line-height:1.45}
 .info{margin-top:12px;padding:12px;background:#eef3f6;border-radius:10px;font-size:14px;line-height:1.45}
 .hidden{display:none}
-.install-btn{margin:0 0 12px;background:#2f6a4d} @media(max-width:480px){.grid{grid-template-columns:1fr}}
+.install-btn{margin:0 0 12px;background:#c90000} @media(max-width:480px){.grid{grid-template-columns:1fr}}
 </style></head>
 <body><div class="wrap"><div class="card">
-<h1>MP TENDE</h1><div class="sub">Calcolatore listini 2025</div>
-<button id="installBtn" class="install-btn" style="display:none" onclick="installApp()">INSTALLA APP</button>
-
+<h1>MP TENDE</h1><div class="sub">Calcolatore listini 2025</div><button id="installBtn" class="install-btn" style="display:none" onclick="installApp()">INSTALLA APP</button>
 
 <label for="model">Modello tenda</label>
 <select id="model" onchange="updateVariant()"><option value="">— Scegli il modello —</option><optgroup label="TENDE DA SOLE 2025"><option value="BS">BS</option>
@@ -226,7 +229,7 @@ window.addEventListener('beforeinstallprompt',(e)=>{
 });
 async function installApp(){
   if(!deferredPrompt){
-    alert('Se il pulsante di installazione non è disponibile, apri il menu di Chrome e scegli "Installa app" oppure "Aggiungi a schermata Home".');
+    alert('Apri il menu di Chrome e scegli "Installa app" oppure "Aggiungi a schermata Home".');
     return;
   }
   deferredPrompt.prompt();

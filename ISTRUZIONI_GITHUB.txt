@@ -1,0 +1,14 @@
+CARICAMENTO SU GITHUB PAGES
+
+1. Crea o apri il repository GitHub che userai per il sito.
+2. Carica TUTTI i file contenuti in questa cartella nella radice del repository.
+3. In GitHub vai in Settings > Pages.
+4. In "Build and deployment" scegli "Deploy from a branch".
+5. Seleziona il branch main e la cartella /(root), poi Save.
+6. Attendi la pubblicazione e apri l'indirizzo HTTPS fornito da GitHub Pages.
+7. Da Google Chrome su Android puoi usare "Installa app" o "Aggiungi a schermata Home".
+
+IMPORTANTE:
+- Non caricare la cartella contenitore: carica direttamente i file che trovi dentro.
+- Se avevi già una versione online, sostituisci i vecchi file con questi.
+- Il service worker usa una nuova cache così Chrome aggiornerà anche la nuova icona MIGLIORI.

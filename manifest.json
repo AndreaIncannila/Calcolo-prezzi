@@ -1,12 +1,12 @@
 {
-  "name": "MP TENDE - Calcolatore Prezzi",
-  "short_name": "MP TENDE",
-  "description": "Calcolatore prezzi MP TENDE 2025",
+  "name": "Migliori Tende - Calcolatore Prezzi",
+  "short_name": "Migliori Tende",
+  "description": "Calcolatore prezzi tende e chiusure verticali",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f4f6f3",
-  "theme_color": "#244b3d",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
   "orientation": "portrait-primary",
   "icons": [
     {
